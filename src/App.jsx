@@ -207,7 +207,7 @@ function App() {
 
       <header className="navbar">
         <a href="#home" className="brand">
-          <img src={`${import.meta.env.BASE_URL}kayma-logo.png`} alt="KaymaTech" />
+          <img src="/kayma-logo.png" alt="KaymaTech" />
         </a>
 
         <nav className="nav-links">
@@ -711,7 +711,7 @@ function App() {
           <div className="footer-top">
             <div className="footer-brand">
               <img
-                src={`${import.meta.env.BASE_URL}kayma-logo.png`}
+                src="/kayma-logo.png"
                 alt="KaymaTech"
               />
 
